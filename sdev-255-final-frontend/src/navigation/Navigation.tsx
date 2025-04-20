@@ -8,7 +8,7 @@ import ViewCourses from '../pages/ViewCourses';
 
 const Navigation = () => {
   return (
-    <Router basename='/RE_SDEV255_Final_Project'>
+    <Router>
       <div className='navbar'>
         <Navbar />
       </div>

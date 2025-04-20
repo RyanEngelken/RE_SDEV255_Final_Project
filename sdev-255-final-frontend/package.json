@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ryanengelken.github.io/sdev-255-final-project",
+  "homepage": "https://ryanengelken.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
