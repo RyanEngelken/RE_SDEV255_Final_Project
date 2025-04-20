@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './navbar.css'; // Make sure to import the styles
+import './navbar.css'; 
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      {/* Hamburger menu for mobile */}
+      {}
       <div className="hamburger" onClick={toggleMenu}>
         <div></div>
         <div></div>

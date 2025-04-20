@@ -1,4 +1,4 @@
-/* Base navbar styles */
+/* Navbar styles */
 .navbar {
     background-color: #333;
     padding: 10px 20px;
@@ -14,7 +14,6 @@
     height: 60px;
 }
 
-/* Nav list default (horizontal) */
 .navbar ul {
     list-style: none;
     display: flex;
@@ -23,7 +22,6 @@
     padding: 0;
 }
 
-/* Nav items */
 .navbar ul li a {
     color: white;
     text-decoration: none;
@@ -36,7 +34,6 @@
     border-radius: 4px;
 }
 
-/* Hamburger icon */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -44,7 +41,6 @@
     cursor: pointer;
     position: absolute;
     left: 20px;
-    /* on the left */
 }
 
 .hamburger div {
@@ -54,7 +50,7 @@
     border-radius: 2px;
 }
 
-/* Mobile Styles */
+/* Mobile */
 @media screen and (max-width: 768px) {
     .hamburger {
         display: flex;
