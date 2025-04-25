@@ -1,17 +1,17 @@
 {
   "name": "sdev-255-final-project",
-  "homepage": "https://RyanEngelken.github.io/RE_SDEV255_Final_Project/sdev-255-final-frontend",
+  "homepage": "https://ryanengelken.github.io/RE_SDEV255_Final_Project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
