@@ -1,10 +1,10 @@
 // import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './navbar';
-import Home from '../pages/Home';
+import ViewCourses from '../pages/Home';
 import MySchedule from '../pages/MySchedule';
 import UpdateSchedule from '../pages/UpdateSchedule';   
-import ViewCourses from '../pages/ViewCourses';
+import InstructorView from '../pages/InstructorView';
 
 const Navigation = () => {
   return (
@@ -13,10 +13,10 @@ const Navigation = () => {
         <Navbar />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<ViewCourses />} />
         <Route path="/my-schedule" element={<MySchedule />} />
         <Route path="/update-schedule" element={<UpdateSchedule />} />
-        <Route path="/view-courses" element={<ViewCourses />} />
+        <Route path="/instructor-view" element={<InstructorView />} />
       </Routes>
     </Router>
   );
